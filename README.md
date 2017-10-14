@@ -1,7 +1,7 @@
 # comp110-worksheet-B
 Base repository for COMP110 worksheet B
 
-Password = The chosen password that the user must find
+```Password = The chosen password that the user must find
 UserChosenWord = the word the user clicked/chose
 SameLetters = 0
 numbLetrs = the number of letters in Password
@@ -14,7 +14,7 @@ If UserChosenWord =! Password
 			
 	print SameLetters " / " numbLetrs
 else 
-	YouWinFunction
+	YouWinFunction```
 
 
-![alt text](https://imgur.com/vdhSBUX)
+![Image of FlowChart](https://i.imgur.com/vdhSBUX.png)
