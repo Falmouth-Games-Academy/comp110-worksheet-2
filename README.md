@@ -1,7 +1,7 @@
 # comp110-worksheet-B
 Base repository for COMP110 worksheet B
 
-# Psuedocode for minigame
+# Psuedocode for minigame word comparison section
 ```
 # Snippet info: Checks similarity between a user-selected word and a preset secret word
 # Ignores characters beyond the length of the shorter word.
@@ -31,3 +31,6 @@ else:
     display_message("Failure! Likeness: " + to_string(likeness))
 endif
 ```
+
+# Flowchart
+![alt text](https://i.imgur.com/uqJtNYS.png "I just realised 'swimlanes' exist because it's a 'flow'chart")
