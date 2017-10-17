@@ -1,7 +1,7 @@
 # comp110-worksheet-B
 Base repository for COMP110 worksheet B
 ![FlowChart](Flowchart.png)
-
+```
 SecretCode ← Generated Random Number;
 UserGuess ←  User's Selected Guess;
 
@@ -26,3 +26,4 @@ Else
 	likeness ← (numberCorrect / numberOfLetters);
 	Output << likeness (as fraction) Correct; 
 }
+```
