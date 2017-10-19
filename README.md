@@ -26,3 +26,8 @@ if guesses == 4
    display main menu to give the user an opportunity to start again
 end if
 ```
+
+<p align="center">
+  <img width="460" height="300" src="comp110-worksheet-B/Flowchart.jpg">
+</p>
+comp110-worksheet-B/Flowchart.jpg
