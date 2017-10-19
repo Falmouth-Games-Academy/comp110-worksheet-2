@@ -1,24 +1,24 @@
-# comp110-worksheet-B
+# comp110-worksheet-B (SCOTT CALVERT)
 Base repository for COMP110 worksheet B
 
 First level of abstraction
 
-#select randomly choosen word
-prompt the user that they only have a total of 5 guesses 
-prompt user to input guess
+1)select random word
+2)prompt the user that they only have a total of 5 guesses 
+3)prompt user to input guess
 
-match guess with randomly choosen word 
+4)match guess with randomly choosen word 
 
-if guess matches random word 
-	print "access granted"
+5)if guess matches random word 
+	6)print "access granted"
 	
-if guess is incorrect then 
-	identify which letters are the same in both the guess and random word 
-	print "you have x out of x correct"
+7) if guess is incorrect then 
+	8) identify which letters are the same in both the guess and random word 
+	9) print "you have x out of x correct"
 	
-	also print "you have 4 guess left"
+	10) also print "you have 4 guess left"
 	
-repeat loop until guess = randon word or no more guess remain#
+11) repeat loop until guess = randon word or no more guess remain#
 
 -------------------------------------------------
 Second level of abstraction
@@ -27,7 +27,7 @@ Second level of abstraction
 import english language dict
 import random_get_word ()
 
-int randon_get_word() #store as an array
+int randon_get_word[] #store as an array
 
 print "Please input password"
 print "For security reasons you are only allowed 5 password attempts"
@@ -42,7 +42,7 @@ for i = (5)
      for letter in password 
 	 compare letter(0) == password 
      print number of matching letters
-	 print "please re input password"
+	 print "please input password"
 	 
    elif guess = password
       print "Acess Granted"
