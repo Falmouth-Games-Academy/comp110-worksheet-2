@@ -22,6 +22,6 @@ chosen_word = system randomly chooses one word from random_words
 end while
 
 <br />if guesses == 4
-<br />   print "Unfortunately, but you have reached maximum attempts. Try another time"
+<br _>   print "Unfortunately, but you have reached maximum attempts. Try another time"
 <br />   display main menu to give the user an opportunity to start again
 <br />end if
