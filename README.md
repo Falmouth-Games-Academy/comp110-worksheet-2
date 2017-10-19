@@ -26,4 +26,3 @@ if guesses == 4
    display main menu to give the user an opportunity to start again
 end if
 ```
-![alt text](https://github.com/aLoi3/comp110-workheet-B/raw/master/path/to/Flowchart.png)
