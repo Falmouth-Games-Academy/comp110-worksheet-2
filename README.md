@@ -4,6 +4,8 @@ Attempt Number = 4
 
 x = Correct Letters  
 
+Generate Random Words
+
 OUTPUT " ROBCO INDUSTRIES (TM) TERMALINK PROTOCOL" 
 OUTPUT " ENTER PASSWORD NOW" 
 
