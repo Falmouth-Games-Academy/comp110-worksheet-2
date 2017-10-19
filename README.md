@@ -2,8 +2,11 @@
 Base repository for COMP110 worksheet B
 
 var random_words = random words number of which is 8
+
 *random_words have similar beginnings or endings*
+
 var random_characters = randomly generated any characters
+
 var guesses = 0
 
 Display random_words and random_characters on screen 
