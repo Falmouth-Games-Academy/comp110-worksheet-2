@@ -14,4 +14,4 @@ For attempts in range 4
 		If guessed word != key word and attempts = 4
 		Failed hack
 		end
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![flowchart](https://github.com/proarua15151/comp110-worksheet-B/blob/master/fallout%204%20hacking%20flowchart.pdf)
