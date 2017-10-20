@@ -12,5 +12,5 @@ for each letter in each position in guess_word
 			print likeness value
      
      
- ![alt tag](http://url/to/img.png)
+ ![Flowchart](https://raw.githubusercontent.com/ac200905/comp110-worksheet-B/master/TerminalFlowchart%20-%20Page%201.png)
 
