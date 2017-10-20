@@ -31,6 +31,7 @@ while guesses < 4
         increment score
 
     print "Likeness score is" + score
+    score = 0
     increment guesses
 		
 ```
