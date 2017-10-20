@@ -2,7 +2,7 @@
 Base repository for COMP110 worksheet B
 ![FlowChart](Flowchart.png)
 ```
-SecretCode ← Generated Random Number;
+SecretCode ← Generated Random Word;
 UserGuess ←  User's Selected Guess;
 
 If (SecretCode == UserGuess)
