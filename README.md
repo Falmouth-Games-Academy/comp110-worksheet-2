@@ -12,4 +12,5 @@ for each letter in each position in guess_word
 			print likeness value
      
      
-     
+ ![alt tag](http://url/to/img.png)
+
