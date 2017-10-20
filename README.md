@@ -1,6 +1,8 @@
 # comp110-worksheet-B (SCOTT CALVERT)
 Base repository for COMP110 worksheet B
 
+![pict](https://github.com/Mindengine76/comp110-worksheet-B/blob/master/WIN_20171019_19_32_18_Pro.jpg)
+
 First level of abstraction
 
 1)select random word
