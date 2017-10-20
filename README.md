@@ -2,12 +2,17 @@
 Base repository for COMP110 worksheet B
 
 PROGRAM Terminal
+
 Init Terminal
+
 Guesses = 4
+
 Correct Word = Marks
+
 Words = Starks, Stake, Helps, Empty, Marks
 
 Print “You have 4 guesses”
+
 Guess = Input Guess
 
 
