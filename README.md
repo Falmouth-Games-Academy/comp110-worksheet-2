@@ -26,3 +26,6 @@ if guesses == 4
    display main menu to give the user an opportunity to start again
 end if
 ```
+
+
+![alt text](https://i.imgur.com/LMA0oZq.jpg)
