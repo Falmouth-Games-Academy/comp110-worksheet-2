@@ -18,31 +18,37 @@ Guess = Input Guess
 
 If chosen word has no characters right 
 guessesTaken = guessesTaken +1
+
 Then 
 Print “0/5 characters correct”
 
 If chosen word has 1 characters right 
 guessesTaken = guessesTaken +1
-Then 
+
+Then
 Print “1/5 characters correct”
 
 If chosen word has 2 characters right 
 guessesTaken = guessesTaken +1
+
 Then 
 Print “2/5 characters correct”
 
 If chosen word has 3 characters right 
 guessesTaken = guessesTaken +1
+
 Then 
 Print “3/5 characters correct”
 
 If chosen word has 4 characters right 
 guessesTaken = guessesTaken +1
+
 Then 
 Print “4/5 characters correct”
 
 If chosen word has all characters right 
 guessesTaken = guessesTaken +1
+
 Then 
 Print “5/5 characters correct”
 
