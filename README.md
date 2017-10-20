@@ -1,4 +1,5 @@
 # comp110-worksheet-B
+![Flowchart](https://github.com/Hackcraft/comp110-worksheet-B/blob/master/flowchart.png)
 ```
 secretWord = Generated secret word
 guessedWord = Guessed word
