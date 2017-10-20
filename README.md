@@ -1,12 +1,12 @@
 # comp110-worksheet-B
 Base repository for COMP110 worksheet B
 
-
+int MAX_GUESSES = 4
 string TO_GUESS = "Word to guess"
 bool won = False
 print("Guess the " + TO_GUESS.length() + " letter word")
 print("_" * TO_GUESS)
-for(int y = 0; y < 4; y++)
+for(int y = 0; y < MAX_GUESSES; y++)
 {
   int counter = 0
   bool chk = True
@@ -21,7 +21,7 @@ for(int y = 0; y < 4; y++)
   }
   for(int x = 0; x < ans.length(); x++)
   {
-    if (ans[x] == TO_GUESS[x])
+    if (ans[x].upper() == TO_GUESS[x].upper())
     {
       counter++
     }
