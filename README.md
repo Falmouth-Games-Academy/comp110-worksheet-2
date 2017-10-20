@@ -14,11 +14,17 @@ if word contains 0 likeness
 
 if word contains > 1 letters similar to cword then
 	display "likeness 1"
+	
 if word > contains > 2 letters similar to cword then
 	display "likeness 2"
+	
 if word > contains > 3 letters similar to cword then
 	display "likeness 3"
+	
 if word > contains > 4 letters similar to cword then
 	display "likeness 4"
+	
 if word > contains > 5 letters similar to cword then
 	unlock terminal + add xp
+	
+end
