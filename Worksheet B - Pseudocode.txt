@@ -1,0 +1,17 @@
+Import random library
+N = Random INT from 1-10
+
+Word = Random String of N Characters
+
+Guess = input ("What is the secret word, if it has " + N + "letters?")
+
+For N until Guess[N] or until after fourth guess:
+	If Guess == Word:
+		Print "You have done it correctly!"
+	If Guess == Word - 1 character:
+		Print "You had a likeness of N-1 characters!"
+	If Guess == Word - 2 characters:
+		Print "You had a likeness of N-2 characters!"
+	...
+	Else:
+		Print "You have failed to correctly guess the word..."
