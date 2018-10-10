@@ -23,3 +23,7 @@ While Tries is <5:
 	End if
 End while
 ```
+
+## Flowchart:
+
+<img src="https://i.imgur.com/FDLYd78.png" />
