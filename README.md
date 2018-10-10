@@ -3,6 +3,7 @@
 
 ## Pseudocode:
 
+```
 Create RWord <- a random word with x number of letters
 Create Tries <- 0 (current number of user attempts)
 
@@ -21,3 +22,4 @@ While Tries is <5:
 		Display number of identical letters and number of remaining attempts
 	End if
 End while
+```
