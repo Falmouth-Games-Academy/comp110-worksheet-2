@@ -40,3 +40,5 @@ end if
 
 exit terminal
 ```
+
+<img src="https://github.com/gizzmo123456/comp110-worksheet-B/blob/master/minigame.png?raw=true" />
