@@ -40,3 +40,5 @@ if (player clicked on a word)
 		End Program
 	}
 }
+
+![alt text](https://github.com/JoachimRayski/comp110-worksheet-B/blob/master/Terminal%20Hacking%20Flowchart.png?raw=true)
