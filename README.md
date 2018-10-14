@@ -51,7 +51,9 @@ Submission of: Paul Rauca
 			while length of player_guess is not equal to length of secret_word do:
 				player_guess <- input word
 			end while
-
+			
+			//number of (failed) attempts is increased by 1 and the similarity score is reset for the next attempt
+			
 			attempts <- attempts + 1
 			similarity <- 0
 	end while
