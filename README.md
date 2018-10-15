@@ -22,4 +22,4 @@ else if victory is 0 and guesses is 0
 	print "you Lose"
 	
 	
-	<img src="Flowchart.png">
+	<img src="Flowchart.png" alt="My Flowchart">
