@@ -2,6 +2,10 @@
 
 This is the James' repository for COMP110 Worksheet 3.
 
+Flowchart:
+
+![](FalloutIVMinigameFlowchartV4.png)
+
 ```
 choose random word i from list of words
 input word
@@ -15,5 +19,4 @@ while guesses =< 3{
 	likeliness = likeliness of new word
 	guesses = guesses + 1
 }
-
 ```
