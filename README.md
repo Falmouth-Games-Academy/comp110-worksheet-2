@@ -1,8 +1,8 @@
-###Flowchart diagram of the game.
+### Flowchart diagram of the game.
 
 ![Flowchart](https://github.com/JVFalmouth/comp110-worksheet-3/blob/master/Hacking%20Diagram.png)
 
-###Pseudocode
+### Pseudocode
 ```
 start
 
