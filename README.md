@@ -2,7 +2,7 @@
 
 ![Flowchart](https://github.com/JVFalmouth/comp110-worksheet-3/blob/master/Hacking%20Diagram.png)
 
-### Pseudocode
+### Pseudocode for game solving algorithm.
 ```
 start
 
