@@ -12,18 +12,24 @@ guesses = 4
 
 WHILE running
   
-  word = first word on list
+  IF guesses > 0
+
+    list = remaining words
+    word = first word in list
   
-  IF word is correct
-    WIN
+    IF word is correct
+      WIN
   
+    ELSE
+      likeness = number of correct characters
+      FOR each word in list
+        IF likeness of current word != likeness of word
+          REMOVE current word from list
+      REMOVE word from list
+      guesses - 1
+
   ELSE
-    likeness = number of correct characters
-    FOR each word in the list
-      IF likeness of current word != likeness of word
-        REMOVE current word from list
-    REMOVE word from list
-    guesses - 1
+    LOSE
 
 ```
 
