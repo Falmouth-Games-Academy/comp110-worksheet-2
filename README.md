@@ -23,7 +23,7 @@ WHILE running
     ELSE
       likeness = number of correct characters
       FOR each word in list
-        IF likeness of current word != likeness of word
+        IF likeness of word in list != likeness of word
           REMOVE current word from list
       REMOVE word from list
       guesses - 1
