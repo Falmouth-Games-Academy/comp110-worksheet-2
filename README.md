@@ -8,4 +8,4 @@ Fork this repository, and edit `README.md` to show your pseudocode solving the w
 
 ```
 
-
+![flowchart](https://github.com/DanielNeale/comp110-worksheet-3/blob/master/Fallout%20Mastermind.png)
