@@ -1,11 +1,8 @@
-# COMP110 Worksheet 3: Flowcharts and pseudocode
+###Flowchart diagram of the game.
 
-This is the base repository for COMP110 Worksheet 3.
+![Flowchart](https://github.com/JVFalmouth/comp110-worksheet-3/blob/master/Hacking%20Diagram.png)
 
-Fork this repository, and edit `README.md` to show your pseudocode solving the worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
-
-
-
+###Pseudocode
 ```
 start
 
