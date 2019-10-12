@@ -29,6 +29,9 @@ while GUESSES > 0:
 		FOR every character IN chosenWord:
 			IF winningWord has same character:
 				likeness + 1
+				
+		PRINT "Likeness: " + likeness
+		
 	ENDIF
 
 	
