@@ -45,6 +45,5 @@ while GUESSES > 0:
 	ENDIF
 
 
-
 END
 ```
