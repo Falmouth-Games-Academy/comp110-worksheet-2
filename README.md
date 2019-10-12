@@ -35,7 +35,9 @@ while GUESSES > 0:
 	IF chosenWord == winningWord:
 		PRINT "You won!"
 	ENDIF
+	
 	GUESSES - 1
+	
 	PRINT "Amount of guesses left" + GUESSES
 
 
