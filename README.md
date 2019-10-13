@@ -1,14 +1,12 @@
 # COMP110 Worksheet 3: Flowcharts and pseudocode
 
-This is the base repository for COMP110 Worksheet 3.
-
-Fork this repository, and edit `README.md` to show your pseudocode solving the worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
 
 ```
 //This algorithm relies on eliminating all words that cannot be the correct one
 //until only the correct word is left. It does this by taking in all of the words at the start,
 //choosing the first word to test, then gets its score, and eliminates all words that dont have that score
 //when compared to the chosen word. It usually only takes 3 iterations before the code is solved
+//This algorithm optimises for guess efficiency as much as possible, though may not be the most efficient method
 
 function getCommon(word1, word2):
     //checks how many letters there are in common between the two parameters
