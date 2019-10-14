@@ -6,7 +6,7 @@ This is the base repository for COMP110 Worksheet 3.
 Fork this repository, and edit `README.md` to show your pseudocode solving the
 worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
 
->"start"
+>start
 
 >   "while answer = false"
 
@@ -26,7 +26,7 @@ worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
 
 >     "end while"
 
->   "end"
+> end
 
 ![alt text]( flowchart.JPG
 "flowchart")
