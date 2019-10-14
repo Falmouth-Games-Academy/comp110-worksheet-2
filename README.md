@@ -28,7 +28,7 @@ while answer=false
 
 >   End
 
-![alt text]( C:\\Users\\Alper\\Videos\\worksheet 3 flowchart\\flowchat.jpg
+![alt text]( flowchart.JPG
 "flowchart")
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
