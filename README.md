@@ -1,9 +1,5 @@
 # COMP110 Worksheet 3: Flowcharts and pseudocode
 
-This is the base repository for COMP110 Worksheet 3.
-
-Fork this repository, and edit `README.md` to show your pseudocode solving the worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
-
 ```
 Make a list of all available words
 until you've chosen the keyword or you've ran out of lives do
@@ -12,3 +8,5 @@ until you've chosen the keyword or you've ran out of lives do
 		read how many letter positions in your chosen word were right
 		eliminate all words in your list that don't share this many letters in the same position
 ```
+
+![alt text](https://github.com/HDonovan96/comp110-worksheet-3/blob/master/Worksheet3.png)
