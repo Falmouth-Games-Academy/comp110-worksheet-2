@@ -6,9 +6,8 @@ Fork this repository, and edit `README.md` to show your pseudocode solving the w
 
 ```
 
-length = letters per word
-count = number of words
 guesses = 4
+running = true
 
 WHILE running
   
@@ -30,6 +29,7 @@ WHILE running
 
   ELSE
     LOSE
+    running = false
 
 ```
 
