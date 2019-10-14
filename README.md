@@ -10,19 +10,19 @@ worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
 
 >   "while answer = false"
 
->     "pick a random word"
+>       "pick a random word"
 
->        "If score is > 3/7"
+>         "If score is > 3/7"
 
->         "Find similar words"
+>           "Find similar words"
 
->        "else"
+>         "else"
 
->           "find another word"
+>             "find another word"
 
->       "if score is 7/7"
+>         "if score is 7/7"
 
->         "then answer=True"
+>           "then answer=True"
 
 >     "end while"
 
