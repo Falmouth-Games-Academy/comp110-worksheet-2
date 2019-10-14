@@ -18,15 +18,15 @@ worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
 
 >        "else"
 
->         "find another word"
+>           "find another word"
 
->     "if score is 7/7"
+>       "if score is 7/7"
 
->       "then answer=True"
+>         "then answer=True"
 
->   "end while"
+>     "end while"
 
->   "End"
+>    "End"
 
 ![alt text]( flowchart.JPG
 "flowchart")
