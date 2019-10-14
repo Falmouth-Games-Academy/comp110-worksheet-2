@@ -4,6 +4,8 @@ This is the base repository for COMP110 Worksheet 3.
 
 Fork this repository, and edit `README.md` to show your pseudocode solving the worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
 
+![flowchart](fallout%204%20flowchart.PNG)
+
 ```
 n = word length
 likeness = input likeness
