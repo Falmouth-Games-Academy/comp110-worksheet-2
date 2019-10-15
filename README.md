@@ -40,3 +40,4 @@ WHILE wrongGuess <=4:
 	ENDIF
 END
 ```
+![Flowchart](https://i.imgur.com/icYJZK2.jpg)
