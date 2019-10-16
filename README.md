@@ -9,3 +9,5 @@ your
    pseudocode
       here
 ```
+
+![Terminal Game Flowchart](./Fallout4TerminalHack.svg)
