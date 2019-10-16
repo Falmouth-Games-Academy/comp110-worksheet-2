@@ -33,4 +33,4 @@ running = true
          
 ```
 
-![FlowChart](/images/Fallout Hacking Flow Chart.png)
+![FlowChart](Fallout Hacking Flow Chart.png)
