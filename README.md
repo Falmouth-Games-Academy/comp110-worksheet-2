@@ -7,9 +7,9 @@ Fork this repository, and edit `README.md` to show your pseudocode solving the w
 ```
 password = random word selected from list
 attempts = 5
+player_guess = users word selection
 WHILE attempts > 0
 	likeness = 0
-	player_guess = users word selection
 	for i in password length
 		if player_guess == password
 			print (Access Granted)
@@ -23,4 +23,6 @@ WHILE attempts > 0
 				likeness = likeness
 				i = i + 1
 	attempts = attempts - 1
+	player_guess = users guess with similar letter positions equal to likeness
+	
 ```
