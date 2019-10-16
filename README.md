@@ -1,11 +1,23 @@
 # COMP110 Worksheet 3: Flowcharts and pseudocode
 
-This is the base repository for COMP110 Worksheet 3.
-
-Fork this repository, and edit `README.md` to show your pseudocode solving the worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
+![Flowchart](pseudocode.png)
 
 ```
-your
-   pseudocode
-      here
+BEGIN
+	guesses = 4
+	correct= FALSE
+	select potential password from list of words
+	WHILE FALSE THEN
+		IF guess = correctWord THEN
+			Terminal = open
+			correct = TRUE
+			ENDIF
+		ELSE THEN
+			guesses - 1
+			IF guesses == 0 THEN
+				Terminal = Lockout
+				ENDIF
+			ELSE THEN
+				choose new word with same likeness 
+				
 ```
