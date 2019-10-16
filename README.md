@@ -1,6 +1,6 @@
 # COMP110 Worksheet 3: Flowcharts and pseudocode
 
-![Flowchart](pseudocode.png)
+![Flowchart](Images/pseudocode.png)
 
 ```
 BEGIN
