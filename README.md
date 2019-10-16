@@ -34,4 +34,3 @@ running = true
 ```
 
 ![FlowChart](/images/Fallout Hacking Flow Chart.png)
-Format: ![Alt Text](url)
