@@ -2,8 +2,6 @@
 
 This is the base repository for COMP110 Worksheet 3.
 
-Fork this repository, and edit `README.md` to show your pseudocode solving the worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
-
 ```
 #Comp110 Worksheet.
 
@@ -28,3 +26,6 @@ while done == False do
 	print likeness
 	userGuesses = userGuesses - 1
 ```
+
+Flowchart:
+!(Flowchart)[Worksheet3-Comp110 Flowchart.png]
