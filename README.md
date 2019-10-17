@@ -4,10 +4,12 @@
 
 ```
 previouslyGuessed[]
+remainingGuesses = 4
 
 x = 1
 while x == 1:
    select word
+   remainingGuesses .= 1
    
    if likeness > 0:
       closestGuess = word
@@ -16,27 +18,32 @@ while x == 1:
       x = 0
    else:
       select next word
+      remainingGuesses .= 1
       
 for word in available words:
    if word is in previouslyGuessed[]:
       skip word
    else:
-      chance = 0
+      matchingLetters = 0
       split word into letters
       split closestGuess into letters
    
       for letter in word:
          if letter[n] in word == letter[n] in closestGuess:
-            chance += 1
+            matchingLetters += 1
          
-      if chance >= closestGuessLikeness:
+      if matchingLetters > closestGuessLikeness:
+         skip word
+      elif matchingLetters < closestGuessLikeness:
+         skip word
+      else:
          select word
+         remainingGuesses .= 1
          
          if likeness > closestGuessLikeness:
             closestGuess = word
             closestGuessLikeness = likeness
             add word to previouslyGuessed[]
          else:
-            chance = 0
             add word to previouslyGuessed[]
 ```
