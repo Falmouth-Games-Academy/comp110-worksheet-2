@@ -2,6 +2,8 @@
 
 This is the base repository for COMP110 Worksheet 3.
 
+![flowchart](https://github.com/GamesDevDave/comp110-worksheet-3/blob/master/Worksheet3-Comp110%20Flowchart.png)
+
 ```
 #Comp110 Worksheet.
 
@@ -27,5 +29,4 @@ while done == False do
 	userGuesses = userGuesses - 1
 ```
 
-Flowchart:
-![Flowchart](Worksheet3-Comp110 Flowchart.png)
+
