@@ -41,4 +41,4 @@ end algorithm
 
 ## Flowchart
 
-![Flowchart](\FalloutMiniGameFlowchart.png)
+![Flowchart](FalloutMiniGameFlowchart.png)
