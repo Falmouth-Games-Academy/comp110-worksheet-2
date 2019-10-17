@@ -1,9 +1,10 @@
 # COMP110 Worksheet 3: Flowcharts and pseudocode
+## Flowchart
 
-This is the base repository for COMP110 Worksheet 3.
+![Flowchart](/Fallout_Hacking_Manager.png)
 
-Fork this repository, and edit `README.md` to show your pseudocode solving the worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
 
+## Pseudocode
 ```
 # get_random_word() is an external aspect 
 # of the program and is supplied to this one
