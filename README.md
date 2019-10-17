@@ -7,7 +7,9 @@ Fork this repository, and edit `README.md` to show your pseudocode solving the w
 ![](https://github.com/Tosh-Jompson/comp110-worksheet-3/blob/master/F4%20Hack%20Game%20Flow%20Chart.PNG)
 
 ```
-your
-   pseudocode
-      here
+while game is running
+   pick random word from list
+   For correct_letter:
+      search unguessed words for words without correct_letter
+      remove words from list without correct_letter
 ```
