@@ -3,7 +3,7 @@
 
 ## Flowchart
 
-[flowchart](https://imgur.com/a/PN0CNy6)
+[flowchart](https://i.imgur.com/NVJFjkY.png)
 
 ```
 your
