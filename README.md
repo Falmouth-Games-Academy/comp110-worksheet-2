@@ -9,14 +9,22 @@ guesses = 3
 running = True
 word = null
 
-list = all words
-guessed_word = first word in list
+list = ALL WORDS
+word = FIRST WORD IN list
 
 WHILE True:
    
    IF word IS correct:
       WIN
-      
+   
+   ELSE IF guesses == 0:
+      LOSE
+   
    ELSE IF guesses >= 1:
-      
+      FOR EACH word IN list:
+         IF likeness_of_word IS NOT EQUAL TO likeness:
+            REMOVE word FROM list
+            
+      word  = FIRST WORD IN list
+      guesses = guesses - 1     
 ```
