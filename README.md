@@ -6,19 +6,20 @@
 previouslyGuessed[]
 remainingGuesses = 4
 
+//Loops until a word with at least 1 likeness is found
 x = 1
 while x == 1:
    select word
    remainingGuesses .= 1
    
+   if word is correct:
+      exit
+      
    if likeness > 0:
       closestGuess = word
       closestGuessLikeness = likeness
       add word to previouslyGuessed[]
       x = 0
-   else:
-      select next word
-      remainingGuesses .= 1
       
 for word in available words:
    if word is in previouslyGuessed[]:
@@ -40,10 +41,15 @@ for word in available words:
          select word
          remainingGuesses .= 1
          
-         if likeness > closestGuessLikeness:
-            closestGuess = word
-            closestGuessLikeness = likeness
-            add word to previouslyGuessed[]
+         if guess is correct:
+            exit
+         elif remainingGuesses == 0:
+            exit
          else:
-            add word to previouslyGuessed[]
+            if likeness > closestGuessLikeness:
+               closestGuess = word
+               closestGuessLikeness = likeness
+               add word to previouslyGuessed[]
+            else:
+               add word to previouslyGuessed[]
 ```
