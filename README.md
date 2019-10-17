@@ -1,8 +1,8 @@
 # COMP110 Worksheet 3: Flowcharts and pseudocode
 
-This is the base repository for COMP110 Worksheet 3.
+![The flowchart](https://raw.githubusercontent.com/JD233113/comp110-worksheet-3/master/flowchart.PNG)
 
-Fork this repository, and edit `README.md` to show your pseudocode solving the worksheet task. Tip: use triple backticks to preserve spacing, e.g.:
+Tip: use triple backticks to preserve spacing, e.g.:
 
 ```
 your
