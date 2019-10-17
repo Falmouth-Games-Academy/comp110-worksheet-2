@@ -38,4 +38,5 @@ for word in available words:
             add word to previouslyGuessed[]
          else:
             chance = 0
+            add word to previouslyGuessed[]
 ```
