@@ -1,8 +1,5 @@
 # COMP110 Worksheet 3: Flowcharts and pseudocode
 
-![](flowchart.png)
-
-
 ```
 START
 
