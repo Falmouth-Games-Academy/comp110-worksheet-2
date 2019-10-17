@@ -26,4 +26,4 @@ Function ChooseCorrectWord(UserChosenWord)
 	  
 ```
 
-![](FalloutFlowChart.jpg)
+![Flowchart](FalloutFlowChart.jpg)
