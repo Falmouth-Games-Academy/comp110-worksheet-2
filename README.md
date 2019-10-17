@@ -7,48 +7,20 @@ Fork this repository, and edit `README.md` to show your pseudocode solving the w
 ```
 START
 
+correct answer = false
 guesses = 4
 
-likeness = 0
-
-list of words = ["words", etc]
-
-list of chosen words = []
-
-winningWord chosen by random from list of words
-
-PRINT list of words
-
-
-while GUESSES > 0:
-	chosenWord = INPUT "Choose a word from the list:"
-	IF chosenWord is already in list of chosen words:
-		PRINT "this word has been guessed"
-	ELSE:
-		APPEND chosenWord to list of chosen words
-		FOR every character IN chosenWord:
-			IF winningWord has same character:
-				likeness + 1
-				
-		PRINT "Likeness: " + likeness
-		
-	ENDIF
-
-	
-	IF chosenWord == winningWord:
-		PRINT "You won!"
-	ENDIF
-	
-	GUESSES - 1
-	
-	PRINT "Amount of guesses left" + GUESSES
-
-
-	IF GUESSES == 0:
-		print "GAME OVER"
-		print "The word was: " + winningWord
-	ENDIF
-
+WHILE correct answer is false DO
+	Pick word from n-letter long word list
+	IF picked word == the winning word DO
+		correct = true
+		ENDIF
+	ELSE DO
+		guesses - 1
+		IF guesses == 0 THEN
+			OUTPUT "Game over"
+			ENDIF
+			
 
 END
 ```
