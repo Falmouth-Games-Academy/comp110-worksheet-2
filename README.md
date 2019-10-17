@@ -26,11 +26,12 @@ for word in available words:
       split closestGuess into letters
    
       for letter in word:
-         if letter(n) in word == letter(n) in closestGuess:
+         if letter[n] in word == letter[n] in closestGuess:
             chance += 1
          
       if chance >= closestGuessLikeness:
          select word
+         
          if likeness > closestGuessLikeness:
             closestGuess = word
             closestGuessLikeness = likeness
