@@ -41,7 +41,7 @@ for word in available words:
          select word
          remainingGuesses .= 1
          
-         if guess is correct:
+         if word is correct:
             exit
          elif remainingGuesses == 0:
             exit
