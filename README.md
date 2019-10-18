@@ -27,4 +27,4 @@ while guesses > 0:
 		Pause 10 seconds and open terminal again
 
 ```
-![Flowchart](minigame_flowchart.png)
+![Flowchart](C:\Users\Ceri Thomas\Desktop\comp110-worksheet-3-master\minigame_flowchart.png)
