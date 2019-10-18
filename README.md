@@ -7,7 +7,7 @@ Fork this repository, and edit `README.md` to show your pseudocode solving the w
 ![Flowchart](https://raw.githubusercontent.com/KalvinMalloch/comp110-worksheet-3/master/Worksheet%203%20Flowchart.png)
 
 
-START
+```START
 
 READ letter_length, words, correct_word
 
@@ -25,4 +25,4 @@ WHILE guesses > 0 AND solved == true
             remove word_chosen from words list
             PRINT word_chosen
             PRINT simularity
-END
+END```
