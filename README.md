@@ -26,4 +26,3 @@ while found_correct_word == false:
       End
 
 ```
-![Image of psuedocode](https://octodex.github.com/images/yaktocat.png)
