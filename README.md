@@ -6,7 +6,7 @@ Fork this repository, and edit `README.md` to show your pseudocode solving the w
 
 My flowchart:
 
-![Flowchart](Fallout_4_Terminal_Hacking.png)
+![Flowchart](Fallout4HackingGame.png)
 
 ```
 your
