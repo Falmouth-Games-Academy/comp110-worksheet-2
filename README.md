@@ -24,3 +24,6 @@ while has_completed_game == false
 
 //game complete		
 ```
+
+
+![Image of Yaktocat](https://raw.githubusercontent.com/TobyAtkinson/comp110-worksheet-3/master/Fallout4FlowChart.PNG)
