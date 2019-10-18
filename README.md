@@ -16,9 +16,13 @@ READ words, guesses, total_letters, won FROM game
 SELECT a word at random from words
 guess = word
 
+previousGuesses = []
+
 WHILE guesses > 0 AND won == false DO
 
-	INPUT guess
+	INPUT guess TO game
+
+	previousGuesses + guess
 	
 	READ likeliness, won, guesses FROM game
 	
@@ -26,24 +30,28 @@ WHILE guesses > 0 AND won == false DO
 
 		FOR possibleAnswer in words DO
 
-			currentLikeliness = 0
+			IF possibleAnswer NOT IN previousGuesses THEN
+				currentLikeliness = 0
 
-			FOR iteration in total_letters DO
-				IF guess[iteration] == possibleAnswer[iteration] THEN
-					currentLikeliness + 1
+				FOR iteration in total_letters DO
+					IF guess[iteration] == possibleAnswer[iteration] THEN
+						currentLikeliness + 1
+					ENDIF
+				ENDDO
+
+				IF currentLikeliness > highestLikeliness THEN
+					guess = possibleAnswer
+					highestLikeliness = currentLikeliness
 				ENDIF
-			ENDDO
-
-			IF currentLikeliness > highestLikeliness THEN
-				guess = possibleAnswer
-				highestLikeliness = currentLikeliness
 			ENDIF
 
 		ENDDO
 
 	ELSE
-		SELECT a word at random from words
-		guess = word
+		WHILE guess IS IN previousGuesses DO
+			SELECT a word at random from words
+			guess = word
+		ENDDO
 	ENDIF
 
 ENDDO
