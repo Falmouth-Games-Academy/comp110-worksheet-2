@@ -1,4 +1,7 @@
 # COMP110 Worksheet 3: Flowcharts and pseudocode
+
+https://raw.githubusercontent.com/Miguel-M-Oliveira/comp110-worksheet-3/master/flowchart.png
+
 ```
 likeness = 0
 solved = false
