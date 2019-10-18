@@ -27,4 +27,4 @@ while guesses > 0:
 		Pause 10 seconds and open terminal again
 
 ```
-![Flowchart](minigame_flowchart.png)
+![minigame_flowchart](https://user-images.githubusercontent.com/56129572/67087988-f5f1cc00-f19b-11e9-940a-c9ff6208a697.png)
