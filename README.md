@@ -13,15 +13,16 @@ likeness = how many correct letters
 
 while found_correct_word == false:
 
-	if chosen_word != hidden word:
-   	    
-		if amount of likeness in chosen_word == 0:
-			find all words that have same letters as in chosen_word and remove
-      else:
-         find all words that have less letters that match chosen_word and remove
+   if chosen_word != hidden word:
+   
+        if amount of likeness in chosen_word == 0:
+	    find all words that have same letters as chosen_word and remove
+        else:
+            find all words that have less letters that match chosen_word and remove
 	
-	else:
-	    //finished game
-		found_correct_word = true
-		End		
+   else:
+      //finished game
+      found_correct_word = true
+      End
+
 ```
