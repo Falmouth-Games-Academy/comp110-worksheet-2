@@ -23,6 +23,9 @@ WHILE guesses > 0 AND solved == true
             guesses = guesses - 1
             simularity = amount of matching letters between word_chosen and correct_word
             remove word_chosen from words list
-            PRINT word_chosen
-            PRINT simularity
-END```
+            IF simularity > 0
+                  detect which words have the same letter positions
+                  guess again using those words
+            ELSE 
+                  guess again
+END
