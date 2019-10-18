@@ -47,3 +47,5 @@ while tries != 0:
 			remove 'guess' from 'word_list'
 
 ```
+
+![Worksheet 3 Flowchart](https://github.com/TrainerIsaac/comp110-worksheet-3/commit/eb6defe02125ef300d108522c464e6e41eda4e9f)
